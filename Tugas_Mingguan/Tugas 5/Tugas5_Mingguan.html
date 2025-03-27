@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Nilai Mahasiswa</title>
+    <style>
+        body { font-family: Arial, sans-serif;
+         }
+        .container {
+             width: 300px; margin: 50px auto; text-align: center; 
+            }
+        input, button { 
+            margin: 6px; padding: 8px; width: 100%; 
+        }
+        .result { margin-top: 10px; font-weight: bold; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Cek Nilai Mahasiswa</h2>
+        <input type="text" id="nim" placeholder="Masukkan NIM Anda">
+        <input type="number" id="nilai" placeholder="Masukkan Nilai Anda">
+        <button onclick="cekNilai()">Cek Nilai</button>
+
+        <p id="hasil-nim"></p>
+        <p id="hasil-nilai"></p>
+        <p id="hasil-hurufmutu"></p>
+    </div>
+    <script src="Nilai.js"></script>
+</body>
+</html>
